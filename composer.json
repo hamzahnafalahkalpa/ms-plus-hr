@@ -1,0 +1,23 @@
+{
+    "name": "wellmed-plus/ms-plus-hr",
+    "autoload": {
+        "psr-4": {
+            "WellmedPlus\\MsPlusHr\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hamzah Nur Alfalah",
+            "email": "hamzahnafalah@gmail.com"
+        }
+    ],
+    "require": {
+        "hanafalah/module-employee": "dev-main",
+        "hanafalah/module-people": "dev-main",
+        "hanafalah/module-profession": "dev-main",
+        "hanafalah/module-card-identity": "dev-main",
+        "hanafalah/module-handwriting": "dev-main"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
